@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
-import StdRegister from './std_register/std_register';
+import './ApplicationPage.css';
+import Std_Application from '../Component/Std_Application/Std_Application';
 
-class App extends Component {
+class ApplicationPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -15,10 +15,10 @@ class App extends Component {
       <div className="header">
         <span className="logo"><img src="https://ok6static.oktacdn.com/bc/image/fileStoreRecord?id=fs034r0xi5BuXeUMR2p7" alt="description of image"></img></span>
       </div>
-      <StdRegister />
+      <Std_Application />
     </div>
     );
   }
 };
 
-export default App;
+export default ApplicationPage;

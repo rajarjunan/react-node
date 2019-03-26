@@ -1,0 +1,85 @@
+/* 
+  .navigation {
+  background-color: #f1f1f1;
+  height: 900px;
+  } */
+
+  
+ 
+  
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color:white;
+    height: 300px; 
+  }
+  section {
+  padding-top: 15px;
+  }
+
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+   * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+#success-msg {
+  color: green;
+  text-align: center;
+  padding-right: 250px;
+}
+.all_std_details {
+  padding-top: 12px;
+  
+}
+.std_admin {
+  background-color: white;
+  padding-top: 23px;
+}
+/* ------------------------------------- */
+table {
+  font-family: arial;
+  border-collapse: collapse;
+  width: 1053px;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.table-header {
+  background-color:#9e9e93
+}
+.delete-std {
+  text-align: right;
+}
