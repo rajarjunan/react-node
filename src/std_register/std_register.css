@@ -164,7 +164,7 @@ nav {
   height: 736px; /* only for demonstration, should be removed */
   background:white;
   padding: 22px;
-  
+
 }
 
 /* Style the list inside the menu */
@@ -187,4 +187,37 @@ footer {
     width: 100%;
     height: auto;
   }
+}
+#success-msg {
+  color: green;
+  text-align: center;
+  padding-right: 250px;
+}
+.all_std_details {
+  padding-top: 12px;
+  
+}
+.std_admin {
+  background-color: white;
+  padding-top: 23px;
+}
+/* ------------------------------------- */
+table {
+  font-family: arial;
+  border-collapse: collapse;
+  width: 1053px;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.table-header {
+  background-color:#9e9e93
+}
+.delete-std {
+  text-align: right;
 }
